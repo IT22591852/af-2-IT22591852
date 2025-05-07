@@ -120,8 +120,9 @@ All core features (country listing, search, filter, details modal, dark/light mo
 
 ---
 
-<!-- ## Deployment
+<!--## Deployment
 
 - The application is been deployed on vercel
-- Hosted Domain :deployed URL  -->
+- Hosted Domain :deployed URL  --> https://af-2-it-22591852.vercel.app/ -->
+
 

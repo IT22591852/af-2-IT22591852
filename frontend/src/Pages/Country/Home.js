@@ -63,15 +63,17 @@ function Home() {
 
   return (
     <div className={`min-h-screen w-full transition-colors duration-300
-      bg-gradient-to-br from-blue-50 via-white to-blue-100
-      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
-      py-8 px-2 sm:px-6 lg:px-12`}>
+  bg-gradient-to-br from-gray-50 via-gray-100 to-gray-50
+  dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
+  py-8 px-2 sm:px-6 lg:px-12`}>
+
       
       {/* Header */}
       <header className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-700 dark:text-blue-300 tracking-tight">
-          🌍 Where in the world?
-        </h1>
+      <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-800 dark:text-gray-100 tracking-tight">
+  🌐 Around the Globe
+</h1>
+
         
         {/* Theme Toggle Button */}
         <button
